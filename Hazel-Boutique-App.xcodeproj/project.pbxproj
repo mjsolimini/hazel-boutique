@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D5EB5D31E099A6D00B0A662 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D5EB5D21E099A6D00B0A662 /* GoogleService-Info.plist */; };
+		0DE629C81DF21B0700DFF676 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE629C71DF21B0700DFF676 /* AppDelegate.swift */; };
+		0DE629CA1DF21B0700DFF676 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE629C91DF21B0700DFF676 /* ViewController.swift */; };
+		0DE629CD1DF21B0700DFF676 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DE629CB1DF21B0700DFF676 /* Main.storyboard */; };
+		0DE629CF1DF21B0700DFF676 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DE629CE1DF21B0700DFF676 /* Assets.xcassets */; };
+		0DE629D21DF21B0700DFF676 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DE629D01DF21B0700DFF676 /* LaunchScreen.storyboard */; };
+		BDFFC02A8C45AB62AD9B9C3A /* libPods-Hazel-Boutique-App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4890F6DADFD239E8ACA4EDE /* libPods-Hazel-Boutique-App.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D5EB5D21E099A6D00B0A662 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0D5EB5D41E09A29E00B0A662 /* Hazel-Boutique-App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Hazel-Boutique-App.entitlements"; sourceTree = "<group>"; };
+		0DE629C41DF21B0700DFF676 /* Hazel-Boutique-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hazel-Boutique-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DE629C71DF21B0700DFF676 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0DE629C91DF21B0700DFF676 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0DE629CC1DF21B0700DFF676 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0DE629CE1DF21B0700DFF676 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0DE629D11DF21B0700DFF676 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0DE629D31DF21B0700DFF676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EB5DD77B3E3115B402707BC /* Pods-Hazel-Boutique-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hazel-Boutique-App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hazel-Boutique-App/Pods-Hazel-Boutique-App.release.xcconfig"; sourceTree = "<group>"; };
+		A1DBEAED68BB3F769E39FD67 /* Pods-Hazel-Boutique-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hazel-Boutique-App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hazel-Boutique-App/Pods-Hazel-Boutique-App.debug.xcconfig"; sourceTree = "<group>"; };
+		A4890F6DADFD239E8ACA4EDE /* libPods-Hazel-Boutique-App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Hazel-Boutique-App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DE629C11DF21B0700DFF676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDFFC02A8C45AB62AD9B9C3A /* libPods-Hazel-Boutique-App.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DE629BB1DF21B0700DFF676 = {
+			isa = PBXGroup;
+			children = (
+				0DE629C61DF21B0700DFF676 /* Hazel-Boutique-App */,
+				0DE629C51DF21B0700DFF676 /* Products */,
+				0EEBC34EE4FD4640E2474E78 /* Pods */,
+				5C13E8535D01283A18485F84 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0DE629C51DF21B0700DFF676 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DE629C41DF21B0700DFF676 /* Hazel-Boutique-App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DE629C61DF21B0700DFF676 /* Hazel-Boutique-App */ = {
+			isa = PBXGroup;
+			children = (
+				0D5EB5D41E09A29E00B0A662 /* Hazel-Boutique-App.entitlements */,
+				0D5EB5D21E099A6D00B0A662 /* GoogleService-Info.plist */,
+				0DE629C71DF21B0700DFF676 /* AppDelegate.swift */,
+				0DE629C91DF21B0700DFF676 /* ViewController.swift */,
+				0DE629CB1DF21B0700DFF676 /* Main.storyboard */,
+				0DE629CE1DF21B0700DFF676 /* Assets.xcassets */,
+				0DE629D01DF21B0700DFF676 /* LaunchScreen.storyboard */,
+				0DE629D31DF21B0700DFF676 /* Info.plist */,
+			);
+			path = "Hazel-Boutique-App";
+			sourceTree = "<group>";
+		};
+		0EEBC34EE4FD4640E2474E78 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1DBEAED68BB3F769E39FD67 /* Pods-Hazel-Boutique-App.debug.xcconfig */,
+				1EB5DD77B3E3115B402707BC /* Pods-Hazel-Boutique-App.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5C13E8535D01283A18485F84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4890F6DADFD239E8ACA4EDE /* libPods-Hazel-Boutique-App.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DE629C31DF21B0700DFF676 /* Hazel-Boutique-App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DE629D61DF21B0700DFF676 /* Build configuration list for PBXNativeTarget "Hazel-Boutique-App" */;
+			buildPhases = (
+				0833E23BDF520CBC2BF9E8D3 /* [CP] Check Pods Manifest.lock */,
+				0DE629C01DF21B0700DFF676 /* Sources */,
+				0DE629C11DF21B0700DFF676 /* Frameworks */,
+				0DE629C21DF21B0700DFF676 /* Resources */,
+				478ADDBA2791C9A850A002C7 /* [CP] Embed Pods Frameworks */,
+				392C71EA251A17785B19F86D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hazel-Boutique-App";
+			productName = "Hazel-Boutique-App";
+			productReference = 0DE629C41DF21B0700DFF676 /* Hazel-Boutique-App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DE629BC1DF21B0700DFF676 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Michael Solimini";
+				TargetAttributes = {
+					0DE629C31DF21B0700DFF676 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = CWAAPTL6QZ;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 0DE629BF1DF21B0700DFF676 /* Build configuration list for PBXProject "Hazel-Boutique-App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0DE629BB1DF21B0700DFF676;
+			productRefGroup = 0DE629C51DF21B0700DFF676 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DE629C31DF21B0700DFF676 /* Hazel-Boutique-App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DE629C21DF21B0700DFF676 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DE629D21DF21B0700DFF676 /* LaunchScreen.storyboard in Resources */,
+				0DE629CF1DF21B0700DFF676 /* Assets.xcassets in Resources */,
+				0DE629CD1DF21B0700DFF676 /* Main.storyboard in Resources */,
+				0D5EB5D31E099A6D00B0A662 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0833E23BDF520CBC2BF9E8D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		392C71EA251A17785B19F86D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hazel-Boutique-App/Pods-Hazel-Boutique-App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		478ADDBA2791C9A850A002C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hazel-Boutique-App/Pods-Hazel-Boutique-App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DE629C01DF21B0700DFF676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DE629CA1DF21B0700DFF676 /* ViewController.swift in Sources */,
+				0DE629C81DF21B0700DFF676 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0DE629CB1DF21B0700DFF676 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DE629CC1DF21B0700DFF676 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0DE629D01DF21B0700DFF676 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DE629D11DF21B0700DFF676 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0DE629D41DF21B0700DFF676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0DE629D51DF21B0700DFF676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0DE629D71DF21B0700DFF676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1DBEAED68BB3F769E39FD67 /* Pods-Hazel-Boutique-App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Hazel-Boutique-App/Hazel-Boutique-App.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = CWAAPTL6QZ;
+				INFOPLIST_FILE = "Hazel-Boutique-App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlphaDev.Hazel-Boutique-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0DE629D81DF21B0700DFF676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EB5DD77B3E3115B402707BC /* Pods-Hazel-Boutique-App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Hazel-Boutique-App/Hazel-Boutique-App.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = CWAAPTL6QZ;
+				INFOPLIST_FILE = "Hazel-Boutique-App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlphaDev.Hazel-Boutique-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DE629BF1DF21B0700DFF676 /* Build configuration list for PBXProject "Hazel-Boutique-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DE629D41DF21B0700DFF676 /* Debug */,
+				0DE629D51DF21B0700DFF676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DE629D61DF21B0700DFF676 /* Build configuration list for PBXNativeTarget "Hazel-Boutique-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DE629D71DF21B0700DFF676 /* Debug */,
+				0DE629D81DF21B0700DFF676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DE629BC1DF21B0700DFF676 /* Project object */;
+}
